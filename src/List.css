@@ -1,0 +1,24 @@
+.list__container {
+  background-color: #f0e4e4;
+  box-shadow: 0 2px 3px 2px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+.list__container > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list__container > ul > li {
+  padding: 0 0 10px 10px;
+  margin: 5px 5px 5px 5px;
+  box-shadow: 1px 2px 2px 2px;
+}
+
+.list__container > ul > li:hover {
+  background-color: #45aced;
+  padding: 0 0 10px 10px;
+  margin: 5px 5px 5px 5px;
+}

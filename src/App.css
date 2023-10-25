@@ -1,0 +1,60 @@
+:root {
+  /* --primary-color: rgb(118, 118, 235); */
+  /* --primary-color: #0095DA; */
+  --primary-color: #16459c;
+}
+
+a {
+  color: black;
+}
+.App {
+  text-align: center;
+  padding: 0 2px;
+}
+.xs-text {
+  font-size: 0.7rem;
+}
+
+/* .top-right-border {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 1;
+} */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.rotate-45 {
+  transform: rotate(315deg);
+  /* top: 50%; */
+  bottom: 40%;
+  width: 50%;
+
+  /* overflow: hidden !important; */
+}
+
+.left-top {
+  position: absolute;
+  top: 0;
+  bottom: 75%;
+  right: 75%;
+}
+
+.bg-main {
+  background-color: var(--primary-color);
+  color: white !important;
+  /* border-radius: 1rem; */
+}
+
+.main-color {
+  color: var(--primary-color);
+}
+
+.outline-none {
+  outline: none;
+}
+.outline-none:focus {
+  outline: none !important;
+}
