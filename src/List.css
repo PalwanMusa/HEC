@@ -15,10 +15,58 @@
   padding: 0 0 10px 10px;
   margin: 5px 5px 5px 5px;
   box-shadow: 1px 2px 2px 2px;
+  position: relative;
 }
 
 .list__container > ul > li:hover {
   background-color: #45aced;
   padding: 0 0 10px 10px;
   margin: 5px 5px 5px 5px;
+}
+
+.list-icon {
+  position: absolute;
+  right: 0;
+  font-size: 25px;
+  margin-right: 8px;
+  color: #bb3b3b;
+  cursor: pointer;
+  transition: all 100ms ease-out;
+}
+.list-icon:hover {
+  color: red;
+  transform: scale(1.2);
+}
+.list-icon:active {
+  transform: scale(1);
+}
+
+.addCar > input {
+  height: 25px;
+  outline: none;
+  width: 400px;
+}
+
+.addCar > button {
+  margin-top: 0.5rem;
+  padding: 0.3rem 2rem;
+  font-size: 18px;
+  background-color: #45aced;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.addCar > button {
+  background-color: #059fff;
+}
+
+.addCar > button:hover {
+  background-color: #81c1ee;
+}
+
+.addCar > button:active {
+  transform: scale(1.03);
 }
